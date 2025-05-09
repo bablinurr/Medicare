@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box{
+    height: auto;
+    width: auto;
+    margin-top: 15px;
+}
+header{
+    height: 100px;
+    width: auto;
+    background-color: skyblue;
+    padding: 15px;
+}
+header h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.sub-box{
+    display: flex;
+    height: 400px;
+    width: 1300px;
+    /* border: 1px solid; */
+    margin-left: 55px;
+}
+.abox{
+    height: 400px;
+    width: 620px;
+    /* border: 1px solid; */
+    /* margin-left: 30px; */
+}
+
+.abox h2{
+    margin-left: 30px;
+    color: blue;
+}
+.abox p{
+    margin-left: 30px;
+}
+.bbox img{
+    height: 350px;
+    width: 600px;
+    /* border: 1px solid; */
+}
+.bbox{
+    height: 400px;
+    width: 620px;
+    /* border: 1px solid; */
+}
+.paragraph{
+    width: 1250px;
+    height: 400px;
+    /* border: 1px solid; */
+    margin-left: 75px;
+}
+.paragraph h2{
+    color: blue;
+}

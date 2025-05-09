@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-box{
+    height: auto;
+    width: auto;
+}
+header{
+    height: 100px;
+    width: auto;
+    background-color: skyblue;
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.sub-box{
+    display: flex;
+    height: 400px;
+    width: 1300px;
+    /* border: 1px solid; */
+    margin-left: 25px;
+    gap: 10px;
+}
+.abox{
+    height: 400px;
+    width: 620px;
+    /* border: 1px solid; */
+    margin-left: 20px;
+}
+
+.abox h2{
+    margin-left: 30px;
+    color: blue;
+}
+.abox p{
+    margin-left: 30px;
+}
+.bbox img{
+    height: 400px;
+    width: 650px;
+    /* border: 1px solid; */
+}
+.bbox{
+    height: 400px;
+    width: 620px;
+    /* border: 1px solid; */
+}
+
+

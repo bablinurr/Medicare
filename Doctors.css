@@ -1,0 +1,291 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    height: 60vh;
+    background-color: rgb(228, 247, 255);
+    top: -100px;
+}
+.head input{
+    width: 700px;
+    height: 50px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    /* text-align: center; */
+    margin-left: 300px;
+    padding-left: 30px;
+    font-size: 17px;
+}
+.head input:hover{
+    color: #000;
+    /* border: 2px solid rgb(246, 151, 246); */
+    border: 2px solid green;
+}
+.button{
+    margin-left:850px ;
+    gap: 10px;
+    font-size: 10px;
+    height: 30px;
+}
+button{
+    font-size: 15px;
+    height: 30px;
+    width: 80px;
+    background-color: rgb(228, 247, 255);
+    border: 1px solid black;
+
+}
+.experience button{
+    background-color:green;
+    border-radius: 10px;
+    color: #fff;
+    /* box-shadow: 2px 2px 2px 2px grey; */
+}
+.experience{
+    margin-right: 50px;
+}
+h1{
+    margin-left: 300px;
+    padding-top: 100px;
+}
+h3{
+    margin-left: 300px;
+}
+p{
+    margin-left: 300px;
+
+}
+.doctor{
+    display: flex;
+    height: 200px;
+    /* border: 1px solid grey; */
+    /* box-shadow: 2px 2px grey; */
+    box-shadow: 1px 1px 1px 1px rgb(203, 186, 186);
+    /* margin-left: 20px; */
+
+}
+/* .doctor .experience{
+    margin-top: 10px;
+} */
+.doctor .experience button{
+    margin-left: 300px;
+    width: 200px;
+}
+.doctor .quality h4{
+    margin-left: 300px;
+}
+.doctor .sanjit{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+h5{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(13, 53, 69);
+}
+/* .flip-box start */
+.main-box{
+    height: 1900px;
+    perspective: 1000px;
+    width: 100%;
+    box-shadow: 5px 5px 5px  gray;
+    display: flex;
+    gap: 30px;
+    /* background-color: rgb(195, 215, 222); */
+    background-color: rgb(215, 225, 228);
+
+
+}
+ .divide1{
+    display: flex;
+    
+    gap: 20px; 
+
+}
+.flip-box img{
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+}
+.flip-box{
+
+    height: 500px;
+    width: 350px;
+    /* box-shadow: 2px 4px gray; */
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+    position: relative;
+    background-color: #fff;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+.flip-box:hover{
+    transform: rotateY(180deg);
+}
+.front, .back{
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+}
+ .back{
+    background-color:rgb(199, 228, 239);
+    text-align: center;
+    transform: rotateY(180deg);
+    height: 100%;
+    width: 100%;
+
+
+}
+.back p{
+    align-items: center;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.back h2{
+    margin-top: 50px;
+    margin-right: 130px;
+}
+
+.back a button{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+.back a button:hover{
+    color: rgb(6, 245, 225);
+}
+
+.divide2{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px; 
+
+} 
+ .divide3{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px; 
+
+ } 
+.front{
+    text-align: center; 
+ }
+ h6{
+    font-size: 20px;
+    margin-top: 20px;
+ } 
+ /* label{
+    margin-right: 192px;
+ }
+ .label-2{
+    margin-right: 230px;
+ } */
+ /* input{
+    height: 40px;
+    width: 280px;
+    border-radius: 10px;
+ } */
+ /* .flip-box box ends */
+ /* .main-container{
+    display: flex;
+    height: 400px;
+    position: relative;
+    gap: 20px; 
+     width: 100%;
+ }
+ .child{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    animation: move-left-right 8s linear infinite;
+    position: absolute;
+    border: 3px solid grey;
+ }
+ body :hover.child{
+    animation-play-state: paused;
+ }
+@keyframes move-left-right{
+    0% {left: -60%;}
+    100%{left: 100%;}
+}
+.child:nth-child(1){
+    animation-delay:0s ;
+}
+.child:nth-child(2){
+    animation-delay:1s;
+}
+.child:nth-child(3){
+    animation-delay:2s ;
+}
+.child:nth-child(4){
+    animation-delay:3ss ;
+}
+.child:nth-child(5){
+    animation-delay:4s;
+}
+.child:nth-child(6){
+    animation-delay:5s ;
+}
+.child:nth-child(7){
+    animation-delay:6s ;
+}
+.child:nth-child(8){
+    animation-delay:7s ;
+}
+.child img{
+    height: 200px;
+    width: 200px;
+    /* object-fit: cover; */
+ 
+
+
+.ab{
+    display: flex;
+    height: 100px;
+    width: auto;
+    /* border: 1px solid; */
+    align-items: center;
+    margin-left: 520px;
+    gap: 50px;
+}
+.ab a button:hover{
+    border-radius: 10px;
+    /* border: none; */
+    color: blue;
+}
+.ab button{
+    color: blue;
+}
+    
+        
+    
+
+    
+    
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+  
+
+
+
+  

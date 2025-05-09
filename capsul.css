@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+.header{
+    height: 70px;
+    width: auto;
+    /* align-items: center; */
+    background-color: rgb(47, 133, 245);
+    text-align: center;
+    padding: 50px;
+}
+.header h1{
+    color: white;
+    align-items: center;
+    font-size: 40px;
+}
+
+/* Department of Capsuls */
+.container {
+    display: flex;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    gap: 15px;
+    padding: 20px;
+}
+.product {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    height: 320px;
+    width: 400px;
+}
+.product img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
+}
+.product h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+.product p {
+    font-size: 14px;
+    color: #555;
+}
+.product .price {
+    font-size: 18px;
+    color: #e91e63;
+    font-weight: bold;
+}
+.product button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.product button:hover {
+    background: #0056b3;
+}
